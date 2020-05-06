@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: d13b23452d2513642bbee06d75de3fb0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CelingLight
+    100002: Chair
+    100004: //RootNode
+    100006: Chair_base
+    100008: Desk
+    100010: FireExtinguisher
+    100012: Lamp
+    100014: MiniVan
+    100016: ParkBench
+    100018: Plant
+    100020: Pot
+    100022: Rock_1
+    100024: Rock_2
+    100026: RoundTable
+    100028: SoadMachine
+    100030: StreetLight
+    100032: Tree_1
+    100034: Tree_2
+    100036: Tree_3
+    100038: VendingMachine
+    100040: Cube
+    100042: CeilingLight
+    400000: CelingLight
+    400002: Chair
+    400004: //RootNode
+    400006: Chair_base
+    400008: Desk
+    400010: FireExtinguisher
+    400012: Lamp
+    400014: MiniVan
+    400016: ParkBench
+    400018: Plant
+    400020: Pot
+    400022: Rock_1
+    400024: Rock_2
+    400026: RoundTable
+    400028: SoadMachine
+    400030: StreetLight
+    400032: Tree_1
+    400034: Tree_2
+    400036: Tree_3
+    400038: VendingMachine
+    400040: Cube
+    400042: CeilingLight
+    2100000: No Name
+    2100002: Material.003
+    2100004: Bark
+    2300000: CelingLight
+    2300002: Chair
+    2300004: Chair_base
+    2300006: Desk
+    2300008: FireExtinguisher
+    2300010: Lamp
+    2300012: MiniVan
+    2300014: ParkBench
+    2300016: Plant
+    2300018: Pot
+    2300020: Rock_1
+    2300022: Rock_2
+    2300024: RoundTable
+    2300026: SoadMachine
+    2300028: StreetLight
+    2300030: Tree_1
+    2300032: Tree_2
+    2300034: Tree_3
+    2300036: VendingMachine
+    2300038: Cube
+    2300040: CeilingLight
+    3300000: CelingLight
+    3300002: Chair
+    3300004: Chair_base
+    3300006: Desk
+    3300008: FireExtinguisher
+    3300010: Lamp
+    3300012: MiniVan
+    3300014: ParkBench
+    3300016: Plant
+    3300018: Pot
+    3300020: Rock_1
+    3300022: Rock_2
+    3300024: RoundTable
+    3300026: SoadMachine
+    3300028: StreetLight
+    3300030: Tree_1
+    3300032: Tree_2
+    3300034: Tree_3
+    3300036: VendingMachine
+    3300038: Cube
+    3300040: CeilingLight
+    4300000: CelingLight
+    4300002: Chair
+    4300004: Chair_base
+    4300006: Desk
+    4300008: FireExtinguisher
+    4300010: Lamp
+    4300012: MiniVan
+    4300014: ParkBench
+    4300016: Pot
+    4300018: Plant
+    4300020: RoundTable
+    4300022: Rock_2
+    4300024: Rock_1
+    4300026: StreetLight
+    4300028: Tree_3
+    4300030: Tree_1
+    4300032: Tree_2
+    4300034: SoadMachine
+    4300036: VendingMachine
+    4300038: Cube
+    4300040: CeilingLight
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

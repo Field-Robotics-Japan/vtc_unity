@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 7424cd104a384f54db0a95f45453ee64
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BarrierCollider
+    100002: Door Left
+    100004: Door Right
+    100006: FrontSlab
+    100008: GreenWall
+    100010: Ground
+    100012: OfficeRoom
+    100014: //RootNode
+    100016: Road
+    100018: Shrub
+    100020: Shrub.001
+    100022: TileSpot
+    100024: Doors
+    100026: Door_Left
+    100028: Door_Right
+    400000: BarrierCollider
+    400002: Door Left
+    400004: Door Right
+    400006: FrontSlab
+    400008: GreenWall
+    400010: Ground
+    400012: OfficeRoom
+    400014: //RootNode
+    400016: Road
+    400018: Shrub
+    400020: Shrub.001
+    400022: TileSpot
+    400024: Doors
+    400026: Door_Left
+    400028: Door_Right
+    2100000: OutSideWall
+    2100002: Floor_Tile
+    2100004: Walls
+    2100006: Glass
+    2100008: Grass
+    2100010: No Name
+    2100012: Road
+    2100014: SideWalk
+    2100016: Floor_Carpet
+    2100018: Window Liner
+    2300000: BarrierCollider
+    2300002: Door Left
+    2300004: Door Right
+    2300006: FrontSlab
+    2300008: GreenWall
+    2300010: Ground
+    2300012: OfficeRoom
+    2300014: Road
+    2300016: Shrub
+    2300018: Shrub.001
+    2300020: TileSpot
+    2300022: Door_Left
+    2300024: Door_Right
+    3300000: BarrierCollider
+    3300002: Door Left
+    3300004: Door Right
+    3300006: FrontSlab
+    3300008: GreenWall
+    3300010: Ground
+    3300012: OfficeRoom
+    3300014: Road
+    3300016: Shrub
+    3300018: Shrub.001
+    3300020: TileSpot
+    3300022: Door_Left
+    3300024: Door_Right
+    4300000: FrontSlab
+    4300002: TileSpot
+    4300004: Door Left
+    4300006: Door Right
+    4300008: Shrub.001
+    4300010: Shrub
+    4300012: GreenWall
+    4300014: BarrierCollider
+    4300016: Ground
+    4300018: Road
+    4300020: OfficeRoom
+    4300022: Door_Left
+    4300024: Door_Right
+    6400000: BarrierCollider
+    6400002: Door Left
+    6400004: Door Right
+    6400006: FrontSlab
+    6400008: GreenWall
+    6400010: Ground
+    6400012: OfficeRoom
+    6400014: Road
+    6400016: Shrub
+    6400018: Shrub.001
+    6400020: TileSpot
+    6400022: Door_Left
+    6400024: Door_Right
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

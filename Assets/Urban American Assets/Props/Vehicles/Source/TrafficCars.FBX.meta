@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 0053170aa403f354ba416b1fcf4d77b5
+timeCreated: 1562861670
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BigSedan
+    100002: Midsize
+    100004: OldSedan
+    100006: SmallCar
+    100008: Taxi
+    100010: //RootNode
+    100012: Truck
+    100014: Van
+    100016: w1
+    100018: w2
+    100020: w3
+    100022: w4
+    100024: w5
+    100026: w6
+    100028: w7
+    100030: w8
+    100032: Wagon
+    100034: WTF
+    100036: WTR
+    400000: BigSedan
+    400002: Midsize
+    400004: OldSedan
+    400006: SmallCar
+    400008: Taxi
+    400010: //RootNode
+    400012: Truck
+    400014: Van
+    400016: w1
+    400018: w2
+    400020: w3
+    400022: w4
+    400024: w5
+    400026: w6
+    400028: w7
+    400030: w8
+    400032: Wagon
+    400034: WTF
+    400036: WTR
+    2300000: BigSedan
+    2300002: Midsize
+    2300004: OldSedan
+    2300006: SmallCar
+    2300008: Taxi
+    2300010: Truck
+    2300012: Van
+    2300014: w1
+    2300016: w2
+    2300018: w3
+    2300020: w4
+    2300022: w5
+    2300024: w6
+    2300026: w7
+    2300028: w8
+    2300030: Wagon
+    2300032: WTF
+    2300034: WTR
+    3300000: BigSedan
+    3300002: Midsize
+    3300004: OldSedan
+    3300006: SmallCar
+    3300008: Taxi
+    3300010: Truck
+    3300012: Van
+    3300014: w1
+    3300016: w2
+    3300018: w3
+    3300020: w4
+    3300022: w5
+    3300024: w6
+    3300026: w7
+    3300028: w8
+    3300030: Wagon
+    3300032: WTF
+    3300034: WTR
+    4300000: WTR
+    4300002: WTF
+    4300004: w1
+    4300006: w4
+    4300008: w2
+    4300010: w3
+    4300012: w5
+    4300014: w6
+    4300016: w7
+    4300018: w8
+    4300020: Truck
+    4300022: BigSedan
+    4300024: Taxi
+    4300026: Van
+    4300028: SmallCar
+    4300030: Midsize
+    4300032: OldSedan
+    4300034: Wagon
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
