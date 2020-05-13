@@ -53,7 +53,7 @@ Finally, RUN the scene file named `unit04_test`.
 We utilize following Assets from Unity Asset Store.  
 Every package are Free now (2020/05/13).
 We partly modify and utilize those Assets.
-- [RosSharp](https://github.com/siemens/ros-sharp) : [Apache2.0](- [RosSharp](https://github.com/siemens/ros-sharp) (Apache2.0 License)
+- [RosSharp](https://github.com/siemens/ros-sharp) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0)
 - [Realistic Tree 9](https://assetstore.unity.com/packages/3d/vegetation/trees/realistic-tree-9-rainbow-tree-54622)
 - [Mobile Tree Package](https://assetstore.unity.com/packages/3d/vegetation/trees/mobile-tree-package-18866)
 - [Yughues Free Bushes](https://assetstore.unity.com/packages/3d/vegetation/plants/yughues-free-bushes-13168)
