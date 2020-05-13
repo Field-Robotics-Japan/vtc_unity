@@ -302,7 +302,7 @@ MonoBehaviour:
   maxAngle: 15
   minAngle: -15
   numberOfLayers: 16
-  numberOfIncrements: 180
+  numberOfIncrements: 3600
   maxRange: 100
   distances: []
   azimuts: []
