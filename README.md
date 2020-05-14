@@ -1,8 +1,13 @@
 # vtc_unity
 [![vtc_unity](.image/vtc.gif)](https://youtu.be/iVK--llmc00)  
+Virtual Tsukuba Challenge on Unity.  
 
-Virtual Tsukuba Challenge package on Unity.  
-The following package is utilized.  
+The name "Virtual Tsukuba Challenge (VTC)" was invented by [fuRo](https://www.furo.org/).  
+The fuRo team maintains [Unrial Engine version of VTC](https://github.com/furo-org/VTC2018).   
+If you have interests on that, please vitsit above link.  
+
+This package is the Unity version of VTC.  
+In this repository, following packages are utilized.  
 Please check them if you have more interests.
 
 - [vtc_world_unity](https://github.com/Field-Robotics-Japan/vtc_world_unity) : The world (environment) model.
