@@ -50,7 +50,8 @@ Finally, RUN the scene file named `unit04_test`.
 
 # LICENSE Dependencies
 - [PointCloud data](https://github.com/Field-Robotics-Japan/vtc_world_unity/tree/master/Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
-) by [Tetsuo Tomizawa](https://researchmap.jp/read0115628)
+) by 防衛大学校ソフトウェア工学講座
+  This data is referenced to create the world model.
 - [City Hall.fbx](./Assets/Rawdata) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by [Tomoaki Yoshida](https://github.com/furo-org/VTC2018)  
   [City Hall.prefab](./Assets/Prefab) is modified from above FBX model.
