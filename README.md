@@ -2,9 +2,7 @@
 [![vtc_unity](.image/vtc.gif)](https://youtu.be/iVK--llmc00)  
 Virtual Tsukuba Challenge on Unity.  
 
-The name "Virtual Tsukuba Challenge (VTC)" was invented by [fuRo](https://www.furo.org/).  
-The fuRo team maintains [Unrial Engine version of VTC](https://github.com/furo-org/VTC2018).   
-If you have interests on that, please vitsit above link.  
+The original Virtual Tsukuba Challenge (VTC) using [Unreal Engine has been developed](https://github.com/furo-org/VTC) by [fuRo](https://www.furo.org/).
 
 This package is the Unity version of VTC.  
 In this repository, following packages are utilized.  
@@ -49,7 +47,7 @@ Then, open the project file with UnityHub.
 Finally, RUN the scene file named `unit04_test`.
 
 # LICENSE Dependencies
-- [PointCloud data](https://github.com/Field-Robotics-Japan/vtc_world_unity/tree/master/Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
+- [Stencil2 PointCloud data](https://github.com/Field-Robotics-Japan/vtc_world_unity/tree/master/Assets/PointCloud) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by 防衛大学校ソフトウェア工学講座  
   This data is referenced to create the world model.
 - [City Hall.fbx](./Assets/Rawdata) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
