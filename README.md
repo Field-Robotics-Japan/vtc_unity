@@ -12,6 +12,47 @@ Please check them if you have more interests.
 - [unit04_unity](https://github.com/Field-Robotics-Japan/unit04_unity) : The robot (unit04) model.
 - [sensors_unity](https://github.com/Field-Robotics-Japan/sensors_unity) : The sensor models.
 
+# Installation
+Thanks to [@ssilph](https://github.com/ssilph) from [#8](https://github.com/Field-Robotics-Japan/vtc_world_unity/issues/8)
+### １．Installation of unity(2019.3.10f1)
+First, install UnityHub with following links.
+- Windows, Mac : https://unity3d.com/jp/get-unity/download
+- Linux : http://kconcon3.hatenablog.com/entry/2019/06/27/220000
+
+After that, choose and install Unity Editor (version : `2019.3.10f`) from archive.  
+https://unity3d.com/get-unity/download/archive
+
+### ２．Installation of Blender 2.8x
+You need Blender>=2.8x. Plsease install with following commands (for Ubuntu).
+```bash
+$ sudo apt remove blender
+$ sudo add-apt-repository ppa:thomas-schiex/blender
+$ sudo apt update
+$ sudo apt install blender
+```
+### ３．Installation of PointCloudViewer(version=2.8x) + bpy(version=2.8x)
+You also need, PointCloudViewer and bpy.
+First, download zip file from following link.
+- https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280  
+Then, install them with following procedure.
+- blender->Edit(Top Left)->Preferences->Add-ons(Left side)->install(Top Right)->choose zip file->install Add-on
+Extract zip file
+
+Install `space_view3d_point_cloud_visualizer.py` with same procedure.
+- blender->Edit(Top Left)->Preferences->Add-ons(Left side)->install(Top Right)->choose space_view3d_point_cloud_visualizer.py file->install Add-on
+
+### 4.Open vtc_unity
+Finally, please open `vtc_unity` package from UnityHub. (It takes more than 5 minuites at the first time, in the case)
+
+### Trouble Shooting
+Some problems are come from `git lfs`
+- If you have not installed `git lfs`, please install them. Then, `git clone` this repository again.
+- If you already have installed `git lfs`, but have a problem. Try following procedure please.
+```bash
+$ git clean -fdx
+$ git lfs pull
+```
+
 # How to use
 ## 1. Launch ROS packages
 #### 1-1 rosbridge
