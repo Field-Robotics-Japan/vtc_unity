@@ -17,10 +17,30 @@ Thanks to [@ssilph](https://github.com/ssilph) from [#8](https://github.com/Fiel
 ### １．Installation of unity(2019.3.10f1)
 First, install UnityHub with following links.
 - Windows, Mac : https://unity3d.com/jp/get-unity/download
-- Linux : http://kconcon3.hatenablog.com/entry/2019/06/27/220000
+- Linux : Goto https://unity3d.com/get-unity/download and click "Download Unity Hub" button to get latest `UnityHub.AppImage`.  
+  Then add execution permission for `UnityHub.AppImage` by following command.
+  ```bash
+  $ sudo chmod +x UnityHub.AppImage
+  ```
+  Then, run the UnityHub.AppImage
+   ```bash
+   $ ./UnityHub.AppImage
+   ```
+   Please certificate the LICENSE for Unity on UnityHub application (you can use them free !)
 
 After that, choose and install Unity Editor (version : `2019.3.10f`) from archive.  
 https://unity3d.com/get-unity/download/archive
+**For Windows**
+You have `.exe` file from above link. Just run them.
+
+**For Linux**
+1. Right click on `Unity Hub` button on your desired Unity Editor version, and click "Copy Lilnk Location".
+2. Run `UnityHub.AppImage` by setting copied link location as the argument. Here is the example for `2019.3.10` version.
+   ```bash
+   $ ./UnityHub.AppImage unityhub://2019.3.10f1/5968d7f82152
+   ```
+   If you need any other version, the procedure is same.
+   After above commands, the UnityHub will start to install desird version's Unity Editor!
 
 ### ２．Installation of Blender 2.8x
 You need Blender>=2.8x. Plsease install with following commands (for Ubuntu).
