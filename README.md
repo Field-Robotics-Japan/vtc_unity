@@ -30,10 +30,11 @@ First, install UnityHub with following links.
 
 After that, choose and install Unity Editor (version : `2019.3.10f`) from archive.  
 https://unity3d.com/get-unity/download/archive
-**For Windows**
+
+**For Windows**  
 You have `.exe` file from above link. Just run them.
 
-**For Linux**
+**For Linux**  
 1. Right click on `Unity Hub` button on your desired Unity Editor version, and click "Copy Lilnk Location".
 2. Run `UnityHub.AppImage` by setting copied link location as the argument. Here is the example for `2019.3.10` version.
    ```bash
