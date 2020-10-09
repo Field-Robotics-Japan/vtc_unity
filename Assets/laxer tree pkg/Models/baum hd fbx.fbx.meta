@@ -1,111 +1,265 @@
 fileFormatVersion: 2
 guid: 9b27b908e66bddb42940797bc06df908
 ModelImporter:
-  serializedVersion: 16
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: group_1
-    100004: instance_0
-    100006: instance_1
-    100008: instance_2
-    100010: instance_3
-    100012: instance_4
-    100014: instance_5
-    100016: instance_6
-    100018: instance_7
-    100020: SketchUp
-    400000: //RootNode
-    400002: group_1
-    400004: instance_0
-    400006: instance_1
-    400008: instance_2
-    400010: instance_3
-    400012: instance_4
-    400014: instance_5
-    400016: instance_6
-    400018: instance_7
-    400020: SketchUp
-    2300000: group_1
-    2300002: instance_0
-    2300004: instance_1
-    2300006: instance_2
-    2300008: instance_3
-    2300010: instance_4
-    2300012: instance_5
-    2300014: instance_6
-    2300016: instance_7
-    2300018: //RootNode
-    3300000: group_1
-    3300002: instance_0
-    3300004: instance_1
-    3300006: instance_2
-    3300008: instance_3
-    3300010: instance_4
-    3300012: instance_5
-    3300014: instance_6
-    3300016: instance_7
-    3300018: //RootNode
-    4300000: instance_7
-    4300002: instance_6
-    4300004: instance_5
-    4300006: instance_4
-    4300008: instance_3
-    4300010: instance_2
-    4300012: instance_1
-    4300014: instance_0
-    4300016: group_1
-    7400000: Default Take
-    9500000: //RootNode
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: group_1
+  - first:
+      1: 100004
+    second: instance_0
+  - first:
+      1: 100006
+    second: instance_1
+  - first:
+      1: 100008
+    second: instance_2
+  - first:
+      1: 100010
+    second: instance_3
+  - first:
+      1: 100012
+    second: instance_4
+  - first:
+      1: 100014
+    second: instance_5
+  - first:
+      1: 100016
+    second: instance_6
+  - first:
+      1: 100018
+    second: instance_7
+  - first:
+      1: 100020
+    second: SketchUp
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: group_1
+  - first:
+      4: 400004
+    second: instance_0
+  - first:
+      4: 400006
+    second: instance_1
+  - first:
+      4: 400008
+    second: instance_2
+  - first:
+      4: 400010
+    second: instance_3
+  - first:
+      4: 400012
+    second: instance_4
+  - first:
+      4: 400014
+    second: instance_5
+  - first:
+      4: 400016
+    second: instance_6
+  - first:
+      4: 400018
+    second: instance_7
+  - first:
+      4: 400020
+    second: SketchUp
+  - first:
+      23: 2300000
+    second: group_1
+  - first:
+      23: 2300002
+    second: instance_0
+  - first:
+      23: 2300004
+    second: instance_1
+  - first:
+      23: 2300006
+    second: instance_2
+  - first:
+      23: 2300008
+    second: instance_3
+  - first:
+      23: 2300010
+    second: instance_4
+  - first:
+      23: 2300012
+    second: instance_5
+  - first:
+      23: 2300014
+    second: instance_6
+  - first:
+      23: 2300016
+    second: instance_7
+  - first:
+      23: 2300018
+    second: //RootNode
+  - first:
+      33: 3300000
+    second: group_1
+  - first:
+      33: 3300002
+    second: instance_0
+  - first:
+      33: 3300004
+    second: instance_1
+  - first:
+      33: 3300006
+    second: instance_2
+  - first:
+      33: 3300008
+    second: instance_3
+  - first:
+      33: 3300010
+    second: instance_4
+  - first:
+      33: 3300012
+    second: instance_5
+  - first:
+      33: 3300014
+    second: instance_6
+  - first:
+      33: 3300016
+    second: instance_7
+  - first:
+      33: 3300018
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: instance_7
+  - first:
+      43: 4300002
+    second: instance_6
+  - first:
+      43: 4300004
+    second: instance_5
+  - first:
+      43: 4300006
+    second: instance_4
+  - first:
+      43: 4300008
+    second: instance_3
+  - first:
+      43: 4300010
+    second: instance_2
+  - first:
+      43: 4300012
+    second: instance_1
+  - first:
+      43: 4300014
+    second: instance_0
+  - first:
+      43: 4300016
+    second: group_1
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__ast3_png
+    second: {fileID: 2100000, guid: c575968aacb53144381d64ddfaa6c2f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: None__bark_wh_png
+    second: {fileID: 2100000, guid: ec234b86cf157d94e9dd6a5ee9b31eee, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
