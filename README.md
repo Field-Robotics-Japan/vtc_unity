@@ -1,6 +1,6 @@
 # vtc_unity
 [![vtc_unity](.image/vtc.gif)](https://youtu.be/iVK--llmc00)  
-![kashiwanoha](.image/kashiwanoha.gif)
+![kashiwanoha](.image/kashiwanoha.gif)  
 Virtual Tsukuba Challenge on Unity.  
 
 [The Virtual Tsukuba Challenge (VTC) using Unreal Engine](https://github.com/furo-org/VTC) has been developed by [fuRo](https://www.furo.org/).
