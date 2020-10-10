@@ -1,5 +1,6 @@
 # vtc_unity
 [![vtc_unity](.image/vtc.gif)](https://youtu.be/iVK--llmc00)  
+![kashiwanoha](.image/kashiwanoha.gif)  
 Virtual Tsukuba Challenge on Unity.  
 
 [The Virtual Tsukuba Challenge (VTC) using Unreal Engine](https://github.com/furo-org/VTC) has been developed by [fuRo](https://www.furo.org/).
@@ -8,13 +9,13 @@ This package is the Unity version of VTC.
 In this repository, following packages are utilized.  
 Please check them if you have more interests.
 
-- [vtc_world_unity](https://github.com/Field-Robotics-Japan/vtc_world_unity) : The world (environment) model.
+- [vtc_world_unity](https://github.com/Field-Robotics-Japan/vtc_world_unity) : The Tsukuba Challenge (environment) model.
+- [kashiwanoha_world_unity](https://github.com/Field-Robotics-Japan/kashiwanoha_world_unity) : The Kashiwa No Ha Campus (environment) model.
 - [unit04_unity](https://github.com/Field-Robotics-Japan/unit04_unity) : The robot (unit04) model.
 - [sensors_unity](https://github.com/Field-Robotics-Japan/sensors_unity) : The sensor models.
 
 # Installation
-Thanks to [@ssilph](https://github.com/ssilph) from [#8](https://github.com/Field-Robotics-Japan/vtc_world_unity/issues/8)
-### １．Installation of unity(2019.3.10f1)
+### 1．Installation of unity(2019.3.10f1)
 First, install UnityHub with following links.
 - Windows, Mac : https://unity3d.com/jp/get-unity/download
 - Linux : Goto https://unity3d.com/get-unity/download and click "Download Unity Hub" button to get latest `UnityHub.AppImage`.  
@@ -43,7 +44,27 @@ You have `.exe` file from above link. Just run them.
    If you need any other version, the procedure is same.
    After above commands, the UnityHub will start to install desird version's Unity Editor!
 
-### ２．Installation of Blender 2.8x
+### 4.Open vtc_unity
+Finally, please open `vtc_unity` package from UnityHub. (It takes more than 5 minuites at the first time, in the case)
+
+### 5. Select the Scene file
+There are two Scene files in `Asset/vtc_unity/Scene/` directory.  
+Please open the Scene file you want.
+
+### Trouble Shooting
+#### Trouble with git lfs
+Some problems are come from `git lfs`
+- If you have not installed `git lfs`, please install them. Then, `git clone` this repository again.
+- If you already have installed `git lfs`, but have a problem. Try following procedure please.
+```bash
+$ git clean -fdx
+$ git lfs pull
+```
+
+#### Trouble with Blender
+The old version of this repository, you need to install blender for launch.  
+Thanks to [@ssilph](https://github.com/ssilph) from [#8](https://github.com/Field-Robotics-Japan/vtc_world_unity/issues/8)
+##### 1．Installation of Blender 2.8x
 You need Blender>=2.8x. Plsease install with following commands (for Ubuntu).
 ```bash
 $ sudo apt remove blender
@@ -51,7 +72,7 @@ $ sudo add-apt-repository ppa:thomas-schiex/blender
 $ sudo apt update
 $ sudo apt install blender
 ```
-### ３．Installation of PointCloudViewer(version=2.8x) + bpy(version=2.8x)
+##### 2．Installation of PointCloudViewer(version=2.8x) + bpy(version=2.8x)
 You also need, PointCloudViewer and bpy.
 First, download zip file from following link.
 - https://github.com/uhlik/bpy#point-cloud-visualizer-for-blender-280  
@@ -62,17 +83,6 @@ Extract zip file
 Install `space_view3d_point_cloud_visualizer.py` with same procedure.
 - blender->Edit(Top Left)->Preferences->Add-ons(Left side)->install(Top Right)->choose space_view3d_point_cloud_visualizer.py file->install Add-on
 
-### 4.Open vtc_unity
-Finally, please open `vtc_unity` package from UnityHub. (It takes more than 5 minuites at the first time, in the case)
-
-### Trouble Shooting
-Some problems are come from `git lfs`
-- If you have not installed `git lfs`, please install them. Then, `git clone` this repository again.
-- If you already have installed `git lfs`, but have a problem. Try following procedure please.
-```bash
-$ git clean -fdx
-$ git lfs pull
-```
 
 # How to use
 ## 1. Launch ROS packages
@@ -115,6 +125,8 @@ Finally, RUN the scene file named `unit04_test`.
 - [City Hall.fbx](./Assets/Rawdata) : [Apache2.0](http://www.apache.org/licenses/LICENSE-2.0
 ) by [Tomoaki Yoshida](https://github.com/furo-org/VTC)  
   [City Hall.prefab](./Assets/Prefab) is modified from above FBX model.
+- [FBX data for Kashiwa No Ha Campus](https://github.com/Field-Robotics-Japan/kashiwanoha_world_unity/Assets/kashiwanoha_world_unity/FBX) : [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by [National Institute of Advanced Industrial Science and Technology （AIST）](https://www.aist.go.jp/)  
+  
 ### From Unity Asset store
 We utilize following Assets from Unity Asset Store.  
 Every package are Free now (2020/05/13).
