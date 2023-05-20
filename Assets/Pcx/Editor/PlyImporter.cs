@@ -4,7 +4,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEditor;
-using UnityEditor.Experimental.AssetImporters;
+
 
 using System;
 using System.Collections.Generic;
@@ -13,8 +13,8 @@ using System.Linq;
 
 namespace Pcx
 {
-    [ScriptedImporter(1, "ply")]
-    class PlyImporter : ScriptedImporter
+    [UnityEditor.AssetImporters.ScriptedImporter(1, "ply")]
+    class PlyImporter : UnityEditor.AssetImporters.ScriptedImporter
     {
         #region ScriptedImporter implementation
 
@@ -22,7 +22,7 @@ namespace Pcx
 
         [SerializeField] ContainerType _containerType = ContainerType.Mesh;
 
-        public override void OnImportAsset(AssetImportContext context)
+        public override void OnImportAsset(UnityEditor.AssetImporters.AssetImportContext context)
         {
             if (_containerType == ContainerType.Mesh)
             {
