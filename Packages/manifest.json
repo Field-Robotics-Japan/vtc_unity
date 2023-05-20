@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "com.frj.unity-sensors": "https://github.com/Field-Robotics-Japan/UnitySensors.git",
-    "com.frj.unity-sensors-ros": "https://github.com/Field-Robotics-Japan/UnitySensorsROS.git",
     "com.unity.addressables": "1.19.19",
     "com.unity.burst": "1.6.6",
     "com.unity.ide.rider": "3.0.14",

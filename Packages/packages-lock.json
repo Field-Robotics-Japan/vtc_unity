@@ -1,28 +1,5 @@
 {
   "dependencies": {
-    "com.frj.unity-sensors": {
-      "version": "https://github.com/Field-Robotics-Japan/UnitySensors.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.burst": "1.4.8",
-        "com.unity.mathematics": "1.2.1",
-        "com.unity.addressables": "1.16.19"
-      },
-      "hash": "526696a393babf0189e611a77d8a26bba067b06d"
-    },
-    "com.frj.unity-sensors-ros": {
-      "version": "https://github.com/Field-Robotics-Japan/UnitySensorsROS.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.burst": "1.4.8",
-        "com.unity.mathematics": "1.2.1",
-        "com.unity.robotics.ros-tcp-connector": "https://github.com/Unity-Technologies/ROS-TCP-Connector.git?path=/com.unity.robotics.ros-tcp-connector",
-        "com.frj.unity-sensors": "https://github.com/Field-Robotics-Japan/UnitySensors.git"
-      },
-      "hash": "eabaa885d91a9dd5520f992962c8733368f1d914"
-    },
     "com.unity.addressables": {
       "version": "1.19.19",
       "depth": 0,
