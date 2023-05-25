@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.synesthesias.plateau-unity-sdk": "https://github.com/Synesthesias/PLATEAU-SDK-for-Unity.git#v1.1.2",
     "com.unity.addressables": "1.19.19",
     "com.unity.burst": "1.6.6",
     "com.unity.ide.rider": "3.0.14",

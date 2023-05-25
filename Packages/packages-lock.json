@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "com.autodesk.fbx": {
+      "version": "4.1.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.synesthesias.plateau-unity-sdk": {
+      "version": "https://github.com/Synesthesias/PLATEAU-SDK-for-Unity.git#v1.1.2",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.formats.fbx": "4.1.2",
+        "com.unity.test-framework": "1.1.31"
+      },
+      "hash": "89c715b20f3fe2c80db6488111b99ef18d4d06a1"
+    },
     "com.unity.addressables": {
       "version": "1.19.19",
       "depth": 0,
@@ -28,6 +45,16 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.formats.fbx": {
+      "version": "4.1.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.5.2",
+        "com.autodesk.fbx": "4.1.1"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
