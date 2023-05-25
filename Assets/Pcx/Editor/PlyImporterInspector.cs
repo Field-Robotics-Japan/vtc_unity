@@ -3,7 +3,7 @@
 
 using UnityEngine;
 using UnityEditor;
-using UnityEditor.Experimental.AssetImporters;
+
 
 namespace Pcx
 {
@@ -11,7 +11,7 @@ namespace Pcx
     // so it has been replaced with a normal Popup control.
 
     [CustomEditor(typeof(PlyImporter))]
-    class PlyImporterInspector : ScriptedImporterEditor
+    class PlyImporterInspector : UnityEditor.AssetImporters.ScriptedImporterEditor
     {
         SerializedProperty _containerType;
 
