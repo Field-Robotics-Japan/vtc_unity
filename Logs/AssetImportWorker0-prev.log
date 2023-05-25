@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50453
+50848
 Successfully changed project path to: /Users/oikawayuusuke/Documents/github/vtc_unity_fork
 /Users/oikawayuusuke/Documents/github/vtc_unity_fork
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/oikawayuusuke/Documents/github/vtc_
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 26.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 58.37 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,88 +69,109 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001504 seconds.
+Registered in 0.000968 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 27.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.25 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.380 seconds
+- Completed reload, in  0.398 seconds
 Domain Reload Profiling:
 	ReloadAssembly (398ms)
-		BeginReloadAssembly (53ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (277ms)
-			LoadAssemblies (53ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (267ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (125ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (139ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
+				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003970 seconds.
+Registered in 0.004577 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 29.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.26 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: bdc06d7e28746a241930be13e10a1298
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <1588c740f0bf425e9cee2e65d80c07e7>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <1588c740f0bf425e9cee2e65d80c07e7>:0 
+  at UnityEditor.AddressableAssets.Settings.AddressableAssetGroup.ResetEntryMap () [0x0003d] in /Users/oikawayuusuke/Documents/github/vtc_unity_fork/Library/PackageCache/com.unity.addressables@1.19.19/Editor/Settings/AddressableAssetGroup.cs:416 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AddressableAssets.Settings.AddressableAssetGroup:ResetEntryMap() (at Library/PackageCache/com.unity.addressables@1.19.19/Editor/Settings/AddressableAssetGroup.cs:421)
+UnityEditor.AddressableAssets.Settings.AddressableAssetGroup:OnAfterDeserialize() (at Library/PackageCache/com.unity.addressables@1.19.19/Editor/Settings/AddressableAssetGroup.cs:402)
+UnityEditor.AssetDatabase:LoadAssetAtPath(String, Type)
+UnityEditor.AssetDatabase:LoadAssetAtPath(String) (at /Users/bokken/buildslave/unity/build/Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.cs:232)
+UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:LoadSettingsObject() (at Library/PackageCache/com.unity.addressables@1.19.19/Editor/AddressableAssetSettingsDefaultObject.cs:62)
+UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject:get_Settings() (at Library/PackageCache/com.unity.addressables@1.19.19/Editor/AddressableAssetSettingsDefaultObject.cs:114)
+UnityEditor.AddressableAssets.AddressableEditorInitialization:.cctor() (at Library/PackageCache/com.unity.addressables@1.19.19/Editor/AddressableEditorInitialization.cs:20)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: Library/PackageCache/com.unity.addressables@1.19.19/Editor/Settings/AddressableAssetGroup.cs Line: 416)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.514 seconds
+- Completed reload, in  0.603 seconds
 Domain Reload Profiling:
-	ReloadAssembly (515ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (603ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (376ms)
-			LoadAssemblies (41ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (461ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (117ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (155ms)
+			SetupLoadedEditorAssemblies (218ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (33ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2210 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (1.5 MB). Loaded Objects now: 2665.
-Memory consumption went from 189.1 MB to 187.6 MB.
-Total: 2.635416 ms (FindLiveObjects: 0.100416 ms CreateObjectMapping: 0.030459 ms MarkObjects: 2.137166 ms  DeleteObjects: 0.366458 ms)
+Unloading 2646 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (1.5 MB). Loaded Objects now: 3090.
+Memory consumption went from 206.0 MB to 204.5 MB.
+Total: 2.621750 ms (FindLiveObjects: 0.111458 ms CreateObjectMapping: 0.033542 ms MarkObjects: 2.067833 ms  DeleteObjects: 0.408167 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,62 +185,45 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3891.697177 seconds.
-  path: Assets/unit04_unity/Scenes
-  artifactKey: Guid(c51153f052d5742d3b75efd1739a92dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/unit04_unity/Scenes using Guid(c51153f052d5742d3b75efd1739a92dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed40a2c6d1e919abc1847ae572aad04') in 0.003535 seconds 
+  Time since last request: 5541.878128 seconds.
+  path: Assets/Standard Assets/Environment
+  artifactKey: Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment using Guid(6ca8c4e270f964e0da9f731d7d34b123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fde35b0efb6bc9344c90e2d2d0a9ff3') in 0.003361 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001014 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x17f4af000 may have been prematurely finalized
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.447 seconds
-Domain Reload Profiling:
-	ReloadAssembly (448ms)
-		BeginReloadAssembly (72ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (312ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (114ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (117ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (66ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (1.5 MB). Loaded Objects now: 2668.
-Memory consumption went from 189.2 MB to 187.7 MB.
-Total: 2.640167 ms (FindLiveObjects: 0.122459 ms CreateObjectMapping: 0.032250 ms MarkObjects: 2.043166 ms  DeleteObjects: 0.441667 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 147.170277 seconds.
+  path: Assets/vtc_world_unity/Scenes
+  artifactKey: Guid(16c1c1d1af1de6784991baabd49ef9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Scenes using Guid(16c1c1d1af1de6784991baabd49ef9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8c84bff52a1ad38716143ea787873b') in 0.001206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.154707 seconds.
+  path: Assets/vtc_world_unity/Scenes/vtc_world_plateau.unity
+  artifactKey: Guid(cbace73ac96c34f9ba93fc057c37ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Scenes/vtc_world_plateau.unity using Guid(cbace73ac96c34f9ba93fc057c37ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc7952648205e25f0de1cd6d7f74782') in 0.001573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.789598 seconds.
+  path: Assets/unit04_unity/Scenes/unit04_test.unity
+  artifactKey: Guid(5f787d0e3bbbe754bbc2de463c4661d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unit04_unity/Scenes/unit04_test.unity using Guid(5f787d0e3bbbe754bbc2de463c4661d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31e63ffe863194039a5eaf03274bed6') in 0.097879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.846594 seconds.
+  path: Assets/vtc_world_unity/Scenes/vtc_world_unity.unity
+  artifactKey: Guid(a79c412954447af479d4d4e434441592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Scenes/vtc_world_unity.unity using Guid(a79c412954447af479d4d4e434441592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43e3011d5c63909a44673bca2424813') in 0.001299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.511847 seconds.
+  path: Assets/vtc_world_unity/Scenes/vtc_world_plateau.unity
+  artifactKey: Guid(cbace73ac96c34f9ba93fc057c37ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Scenes/vtc_world_plateau.unity using Guid(cbace73ac96c34f9ba93fc057c37ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56affc2214e0f34e9d34b18a35a5b9d') in 0.003342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.401001 seconds.
+  path: Assets/unit04_unity/Scenes/unit04_testSettings.lighting
+  artifactKey: Guid(677b64a103f0c4d9db0c5541ef968b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/unit04_unity/Scenes/unit04_testSettings.lighting using Guid(677b64a103f0c4d9db0c5541ef968b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Progressive CPU lightmapper is not supported on Apple silicon, switching to the Progressive GPU lightmapper.
+LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: 'cf4ec6e35cf239215f6d3c116826a2b2') in 0.064784 seconds 
