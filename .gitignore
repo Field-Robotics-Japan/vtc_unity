@@ -39,4 +39,4 @@ sysinfo.txt
 *.DS_Store
 
 # default-2021.dwlt
-/UserSettings/*
+UserSettings/*
