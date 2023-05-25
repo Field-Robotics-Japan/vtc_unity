@@ -1,3 +1,4 @@
 [submodule "External/UnitySensorsROSAssets"]
 	path = External/UnitySensorsROSAssets
 	url = https://github.com/Field-Robotics-Japan/UnitySensorsROSAssets.git
+	ignore = dirty
