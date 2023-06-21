@@ -252,3 +252,105 @@ Received Import Request.
   path: Assets/laxer tree pkg/Models/Materials/bark pine wh.mat
   artifactKey: Guid(63489f5a7b5c30d4c990f5949b6fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/laxer tree pkg/Models/Materials/bark pine wh.mat using Guid(63489f5a7b5c30d4c990f5949b6fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a450256e1a91ba8d800fbfefb12a9a3') in 0.049118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.869733 seconds.
+  path: Assets/laxer tree pkg/Textures
+  artifactKey: Guid(72ad1a89cd1141d4ab5d34f22492f584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Textures using Guid(72ad1a89cd1141d4ab5d34f22492f584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318374b5fb8a1ae9ca5f2153bd81e0e3') in 0.002193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040689 seconds.
+  path: Assets/laxer tree pkg/Textures/bark pine.png
+  artifactKey: Guid(5acaa997b6100fb47b024c69aeb52788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Textures/bark pine.png using Guid(5acaa997b6100fb47b024c69aeb52788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3266465738c67d4e9544999feaf68385') in 0.033097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.494262 seconds.
+  path: Assets/laxer tree pkg/Ambient-Occlusion
+  artifactKey: Guid(1845600e12faef944a97c17195e32568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Ambient-Occlusion using Guid(1845600e12faef944a97c17195e32568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c27bb62005fc5787c2852fd928f9e4') in 0.001912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031772 seconds.
+  path: Assets/laxer tree pkg/Ambient-Occlusion/baum ld0.prefab
+  artifactKey: Guid(232d918e673de694d8a118b6efe0bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Ambient-Occlusion/baum ld0.prefab using Guid(232d918e673de694d8a118b6efe0bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e2423a6328d09a8daff04b8afef64e') in 0.024609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.042553 seconds.
+  path: Assets/laxer tree pkg/Mobile
+  artifactKey: Guid(d64d65418ec4e1f419c2dcc8185c7a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Mobile using Guid(d64d65418ec4e1f419c2dcc8185c7a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0116cd4a28f73e7d323d75594e656e') in 0.001978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031994 seconds.
+  path: Assets/laxer tree pkg/Mobile/baum ld0 mobile.prefab
+  artifactKey: Guid(d7ebb2b5789a2be45b7bd26b3b9d50aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Mobile/baum ld0 mobile.prefab using Guid(d7ebb2b5789a2be45b7bd26b3b9d50aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6b26a63c47bcd7fa30462d422c3f95') in 0.015036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/laxer tree pkg/Mobile/baum ld2 mobile.prefab
+  artifactKey: Guid(78fdf95c4c2d7384a8957ee310d2b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Mobile/baum ld2 mobile.prefab using Guid(78fdf95c4c2d7384a8957ee310d2b067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b9b1febd9af0682ead03f1bcaeab2f') in 0.007529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.949145 seconds.
+  path: Assets/laxer tree pkg/Models
+  artifactKey: Guid(5a07d96d4bb8ac2459658b691520ce35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models using Guid(5a07d96d4bb8ac2459658b691520ce35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef285b4d31e16673507eb5ef526592d') in 0.002103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028152 seconds.
+  path: Assets/laxer tree pkg/Models/baum hd fbx.fbx
+  artifactKey: Guid(9b27b908e66bddb42940797bc06df908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/baum hd fbx.fbx using Guid(9b27b908e66bddb42940797bc06df908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc433e19a59b22b3c74ad7933960337') in 0.066745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/laxer tree pkg/Models/baum ld2(enhanced).asset
+  artifactKey: Guid(bff71d6fe1a3e7044beabfe40f2c32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/baum ld2(enhanced).asset using Guid(bff71d6fe1a3e7044beabfe40f2c32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a61646a97b5fddc61af9ff9498e790') in 0.050163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.598396 seconds.
+  path: Assets/laxer tree pkg/Models/Materials
+  artifactKey: Guid(f599a04a33c388d4ea3336e78a0bddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/Materials using Guid(f599a04a33c388d4ea3336e78a0bddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892a07317c6f1c7a2d8e7500d1f932bd') in 0.001150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 540.215284 seconds.
+  path: Assets/laxer tree pkg/Models/Materials/ast 3 cr dark.mat
+  artifactKey: Guid(adf985a34b2482e408a5b8e71137ad50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/Materials/ast 3 cr dark.mat using Guid(adf985a34b2482e408a5b8e71137ad50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ec926729f8f23d4362218799be5549') in 0.159726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/laxer tree pkg/Models/Materials/ast4 lw 1.mat
+  artifactKey: Guid(81dc5907a40a50040823d8934dd4d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/Materials/ast4 lw 1.mat using Guid(81dc5907a40a50040823d8934dd4d2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c4e40bebd11a70f6b0ce88e8da2378') in 0.010332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/laxer tree pkg/Models/Materials/ast5.mat
+  artifactKey: Guid(f46c6bff831cfd14bb53bc3819f0f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/Materials/ast5.mat using Guid(f46c6bff831cfd14bb53bc3819f0f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a8c340f555dcd5b68b1fbeb3691d2e') in 0.036480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/laxer tree pkg/Models/Materials/bark pine wh lw.mat
+  artifactKey: Guid(bd89ecb7585e33f41b8990012887c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/Materials/bark pine wh lw.mat using Guid(bd89ecb7585e33f41b8990012887c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8b7c13ef076794d07ad80d90993213') in 0.033119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/laxer tree pkg/Models/Materials/ast4.mat
+  artifactKey: Guid(3c6caab7cf56b024097f005008285518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/Materials/ast4.mat using Guid(3c6caab7cf56b024097f005008285518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbd3d205d6dc5a7056625d30becfe71') in 0.006281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/laxer tree pkg/Models/Materials/bark wh lw.mat
+  artifactKey: Guid(62c004aeef1076648a99aaa35156912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer tree pkg/Models/Materials/bark wh lw.mat using Guid(62c004aeef1076648a99aaa35156912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633c5c5f687a69932b23b437e49f8ac') in 0.015459 seconds 
