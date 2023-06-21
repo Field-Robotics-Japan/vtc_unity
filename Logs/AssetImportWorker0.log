@@ -354,3 +354,33 @@ Received Import Request.
   path: Assets/laxer tree pkg/Models/Materials/bark wh lw.mat
   artifactKey: Guid(62c004aeef1076648a99aaa35156912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/laxer tree pkg/Models/Materials/bark wh lw.mat using Guid(62c004aeef1076648a99aaa35156912b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b633c5c5f687a69932b23b437e49f8ac') in 0.015459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.518610 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/Asphalt009.mat
+  artifactKey: Guid(2cd96b5f73735f845839e47ccbfaf30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/Asphalt009.mat using Guid(2cd96b5f73735f845839e47ccbfaf30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9115e2fc8b3ba6a488bd6f31eae3a1e3') in 0.063984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/RightTurn.mat
+  artifactKey: Guid(76ec6987b0ba39a4e9ecf4b99b3ca2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/RightTurn.mat using Guid(76ec6987b0ba39a4e9ecf4b99b3ca2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349f4cc691dada3948d55d567c189125') in 0.042654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/PavingStones002.mat
+  artifactKey: Guid(bd88dcc06bcd82640b73377ce350529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/PavingStones002.mat using Guid(bd88dcc06bcd82640b73377ce350529a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2f48acaca862c0849d89166b8724e6') in 0.021117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/LeftTurn.mat
+  artifactKey: Guid(c35f830c0ac061d43b9bcf07f6987176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/LeftTurn.mat using Guid(c35f830c0ac061d43b9bcf07f6987176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e38a50e93f9482582d5e423fc6f508') in 0.010074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/SandyGravel02.mat
+  artifactKey: Guid(c87a46a335398b743a19dd9d12746b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/SandyGravel02.mat using Guid(c87a46a335398b743a19dd9d12746b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fb8b5678d36141724d842e8e20ecd3') in 0.013551 seconds 

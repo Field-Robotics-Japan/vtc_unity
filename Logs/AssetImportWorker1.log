@@ -282,3 +282,33 @@ Received Import Request.
   path: Assets/laxer tree pkg/Models/Materials/ast3.mat
   artifactKey: Guid(c575968aacb53144381d64ddfaa6c2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/laxer tree pkg/Models/Materials/ast3.mat using Guid(c575968aacb53144381d64ddfaa6c2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb965243866f278045df1d4f321539a') in 0.024444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.518776 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/Asphalt010.mat
+  artifactKey: Guid(7e9232fdc281daf46bf797b4f29fa494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/Asphalt010.mat using Guid(7e9232fdc281daf46bf797b4f29fa494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3860d63c5f546945785652a1db5f2e49') in 0.064531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/Ground003.mat
+  artifactKey: Guid(6a2d3876006b3fb469785513efa21356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/Ground003.mat using Guid(6a2d3876006b3fb469785513efa21356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6896f4763a4f87dfb9b080cde28f27ef') in 0.033298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/Asphalt015.mat
+  artifactKey: Guid(7bebcc929ee559349b09d58bdaa4dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/Asphalt015.mat using Guid(7bebcc929ee559349b09d58bdaa4dcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd0580cabbf9d39f3b45ddca816ebdf') in 0.015634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/JokouMark.mat
+  artifactKey: Guid(73b8633091e4eca46b6b655730184183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/JokouMark.mat using Guid(73b8633091e4eca46b6b655730184183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d6990e8b7d1e49630363d2b4cb3db7') in 0.013542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/vtc_world_unity/Blender/Materials/RoadEdgeStone.mat
+  artifactKey: Guid(6c81610a6e24a20489f32f002b12759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/vtc_world_unity/Blender/Materials/RoadEdgeStone.mat using Guid(6c81610a6e24a20489f32f002b12759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f826866d17a9b664001209e69ca7c5ad') in 0.010106 seconds 
