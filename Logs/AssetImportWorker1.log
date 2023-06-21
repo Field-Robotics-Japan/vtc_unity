@@ -342,3 +342,63 @@ Received Import Request.
   path: Assets/YughuesFreeBushes2018/Materials/M_Bush03.mat
   artifactKey: Guid(cefe5e02e8418a04d927f43107b3558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/YughuesFreeBushes2018/Materials/M_Bush03.mat using Guid(cefe5e02e8418a04d927f43107b3558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8dcbd861101bee84f5e883c7ee3cc8') in 0.021104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 272.649418 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Blue.mat
+  artifactKey: Guid(fc6f26659e5567247a111d9247465c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Blue.mat using Guid(fc6f26659e5567247a111d9247465c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae46fc6bacd29402f696f68547929e4') in 0.031605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Purple.mat
+  artifactKey: Guid(fcf59a39d922f5b408fb9de922c1ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Purple.mat using Guid(fcf59a39d922f5b408fb9de922c1ee34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4450c976b6e1c80486a03a69a3593bc3') in 0.010010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Yellow.mat
+  artifactKey: Guid(4add69fc6d74a5946ae4c9a81ed429ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Yellow.mat using Guid(4add69fc6d74a5946ae4c9a81ed429ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8520e68b3d3030f1e8f867b857a288e2') in 0.007805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat
+  artifactKey: Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat using Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1de669b9f71fb33ba0bfa09fadf91b') in 0.005906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Red.mat
+  artifactKey: Guid(7f915564e02d7624aaa88d7674e83075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Red.mat using Guid(7f915564e02d7624aaa88d7674e83075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d95b65497637c890185493d2fd9518') in 0.018663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.318974 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Blue_Unlit.mat
+  artifactKey: Guid(a07001461da8b324ebe7f74daf962498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Blue_Unlit.mat using Guid(a07001461da8b324ebe7f74daf962498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6705da6eb3d3a10cb051c4ce387e1c2') in 0.013402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Red_Unlit.mat
+  artifactKey: Guid(7e2e5ea8973ba124c90c2d39988f40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Red_Unlit.mat using Guid(7e2e5ea8973ba124c90c2d39988f40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f12bb746f0b0a9cf1a7f33b16df8554') in 0.008527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Yellow_Unlit.mat
+  artifactKey: Guid(a0053e9b22b22a947b5c0b13d86934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Yellow_Unlit.mat using Guid(a0053e9b22b22a947b5c0b13d86934f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f178315b567fbc8105704f3f851361c') in 0.011635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Windows_Unlit.mat
+  artifactKey: Guid(5179a11c362457440a208aa2e368e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Windows_Unlit.mat using Guid(5179a11c362457440a208aa2e368e795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0072eb5c86d7a715faca3bb9868bfa') in 0.007514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Green_Unlit.mat
+  artifactKey: Guid(f53167daf8f01e34c963df78be8509fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/Unlit/Car_Paint_Green_Unlit.mat using Guid(f53167daf8f01e34c963df78be8509fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c919053c03c636701a9253b99e70b21') in 0.007248 seconds 
