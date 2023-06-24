@@ -41,19 +41,54 @@ public class SharderReplacer : EditorWindow
         var beforeShader = Shader.Find(beforeShaderName);
         var afterShader = Shader.Find(afterShaderName);
 
-        var guids = AssetDatabase.FindAssets("t: Material", null);
-        foreach (var guid in guids)
+        // var guids = AssetDatabase.FindAssets("t: Material", null);
+        // foreach (var guid in guids)
+        // {
+        //     var path = AssetDatabase.GUIDToAssetPath(guid);
+        //     var material = AssetDatabase.LoadAssetAtPath<Material>(path);
+
+        //     if (material != null && material.shader == beforeShader)
+        //     {
+        //         material.shader = afterShader;
+        //     }
+
+        // }
+
+        // AssetDatabase.SaveAssets();
+
+        GameObject[] objects = GameObject.FindObjectsOfType<GameObject>();
+
+        foreach (GameObject obj in objects)
         {
-            var path = AssetDatabase.GUIDToAssetPath(guid);
-            var material = AssetDatabase.LoadAssetAtPath<Material>(path);
+            Renderer renderer = obj.GetComponent<Renderer>();
+            // if (renderer != null && renderer.sharedMaterial != null)
+            // {
+            //     // マテリアルがある場合の処理
+            //     Material material = renderer.sharedMaterial;
+            //     if (material.shader == beforeShader)
+            //     {
+            //         // 特定のシェーダーを使用しているマテリアルが見つかった場合の処理
+            //         material.shader = afterShader;
+            //     }
+            // }
 
-            if (material != null && material.shader == beforeShader)
+            if (renderer != null && renderer.materials != null)
             {
-                material.shader = afterShader;
+                Material[] materials = renderer.materials;
+
+                // 各マテリアルにアクセス
+                for (int i = 0; i < materials.Length; i++)
+                {
+                    Material material = materials[i];
+                    // マテリアルに対する処理を実行
+
+                    if (material.shader == beforeShader)
+                    {
+                        // 特定のシェーダーを使用しているマテリアルが見つかった場合の処理
+                        material.shader = afterShader;
+                    }
+                }
             }
-
         }
-
-        AssetDatabase.SaveAssets();
     }
 }
